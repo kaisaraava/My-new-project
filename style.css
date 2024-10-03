@@ -24,10 +24,10 @@ a {
 }
 .btn-primary {
     background:#93cb52;
-    color:#fff
+    color:#fff;
 }
 .btn-primary:hover {
-    backgorund: #7ab436
+    background: #7ab436;
 }
 /* navbar */
 #navbar {
