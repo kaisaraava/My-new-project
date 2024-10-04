@@ -16,6 +16,16 @@ a {
 .text-primary {
     color: #93cb52;
 }
+.text-center {
+    text-align: center;
+}
+/* padding */
+.py-1 {
+    padding: 1rem 0;
+}
+.p-1 {
+    padding: 1rem;
+}
 .btn {
     display: inline-block;
     padding: 0.5rem 2rem;
@@ -80,7 +90,26 @@ a {
 margin-bottom: 0.75rem;
 line-height: 1.1;
 }
+/* MEDIUM heading */
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 00.75rem;
+    line-height: 1.1;
+}
 .par {
     font-size: 1.1rem;
     margin-bottom: 2rem;
+}
+
+/* what */
+#what .items {
+    display: flex;
+}
+#what .items .item {
+    flex: 1;
+}
+#what .items .item i {
+    background: #93cb52;
+    border-radius: 50%;
+margin-bottom:1rem;
 }
