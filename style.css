@@ -29,6 +29,11 @@ a {
 .btn-primary:hover {
     background: #7ab436;
 }
+/* background */ 
+.bg-light {
+    background: #f4f4f4;
+    color:#333;
+}
 /* navbar */
 #navbar {
     background:#333;
@@ -69,7 +74,8 @@ a {
     padding: 0 2rem;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.heading {
+/* LARGE heading */
+.l-heading {
     font-size: 4rem;
 margin-bottom: 0.75rem;
 line-height: 1.1;
