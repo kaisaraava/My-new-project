@@ -44,6 +44,10 @@ a {
     background: #f4f4f4;
     color:#333;
 }
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
 /* navbar */
 #navbar {
     background:#333;
@@ -111,5 +115,33 @@ line-height: 1.1;
 #what .items .item i {
     background: #93cb52;
     border-radius: 50%;
-margin-bottom:1rem;
+margin-bottom: 1rem;
+}
+/* who */
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}ˇ
+#who .who-img {
+    background: url('../img/people.jpg') no-repeat center center/cover;
+}
+#who ul {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+#who ul li {
+    padding: 0.5rem 0;
+border-bottom: #444 dotted 1px;
+}
+/* clients */
+#clients .items {
+    display: flex;
+    justify-content: center;
+}
+#clients .items img {
+display: block;
+width: 60%;
+margin: auto;
 }
