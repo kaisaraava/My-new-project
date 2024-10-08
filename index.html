@@ -7,6 +7,24 @@
          <script src="https://kit.fontawesome.com/3280989f88.js" crossorigin="anonymous"></script>
          <link rel="stylesheet" href="style.css">
 <title>Company Web</title>
+<script>
+    // Initalize and add the map 
+    function initMap () {
+        // The location of Uluru
+        const uluru = {
+            lat: 58.349451, lng: 26.714695 };
+            //The map, centered et Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 16,
+                center: uluru,
+            });
+            // The marker, poitioned at Uluru
+            const marker = new google.maps.Maker ({
+                position: uluru,
+                map: map,
+            });
+    }
+</script>
     </head>
     <body id="home">
         <!-- navbar -->
@@ -122,11 +140,16 @@
             </form>
          </div>
          <!-- map -->
-          <div class="contact-map"></div>
+          <div id="map" class="contact-map"></div>
      </section>
 
      <!-- #footer -->
-      <footer id="footer">
+      <footer id="footer" class="bg-dark text-center py-1">
+        <p>Kõik õigused on kaitstud &copy;2021</p>
       </footer>
+      <!-- map script-->
+      <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm7inXeoHHu4TdJf3dLwv0-G6QmeQ_9mo&callback=initMap">
+    </script> 
     </body>
 </html>
